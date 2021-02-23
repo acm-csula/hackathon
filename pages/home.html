@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ACM Hackathon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="w3-top">
+            <div class="w3-row w3-padding w3-black">
+              <div class="w3-col s3">
+                <a href="#" class="w3-button w3-block w3-black">HOME</a>
+              </div>
+              <div class="w3-col s3">
+                <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+              </div>
+              <div class="w3-col s3">
+                <a href="#faq" class="w3-button w3-block w3-black">FAQ</a>
+              </div>
+              <div class="w3-col s3">
+                <a href="#signup" class="w3-button w3-block w3-black">Register</a>
+              </div>
+            </div>
+        </div>
+        <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+            <div class="w3-display-middle w3-center">
+                <img src="../img/acmlogo1.png" width="250" height="100">
+                <p class="title_font" style="color: #fff;">Spring 2021 Hackathon</p>
+                <hr>
+                <p class="body_font" id="countdown" style="font-size: 20px; color: #fff;"></p>
+                <a href="#about" class="button_link">
+                    <button class="mdc-button mdc-button--raised" style="background-color: black; color: #fff;">
+                        <span class="mdc-button__label">More Info</span>
+                    </button>
+                </a>
+            </div>
+        </header>
+        <div id="about" class="w3-center">
+            <p class="title_font" style="color: #000;">About</p>
+            <p class="w3-center body_font" style="width: 50%; text-align: center; margin: auto;">
+              ACM Mini Hackathon was first introduced to give our members a feel for an actual hackathon.
+              This time the event will be virtual and will be over 3 days. This will give you and your team
+              enought time to work on the prompt.
+            </p>
+            <div class="row" style="margin: auto">
+              <div class="column">
+                <div class="card">
+                  <i class="fa fa-code"></i>
+                  <p>Develope</p>
+                  <p>Develop the project given in the prompt</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <i class="fa fa-users"></i>
+                  <p>Team</p>
+                  <p>You can either work by yourself or a team</p>
+                </div>
+              </div>
+              
+              <div class="column">
+                <div class="card">
+                  <i class="fa fa-send"></i>
+                  <p>Submit</p>
+                  <p>Submit code for evaluation</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="faq" class="w3-center" style="width: 75%; margin: auto;">
+          <p class="title_font" style="color: #000;">FAQ</p>
+          <p class="w3-center body_font" style="width: 50%; text-align: center; margin: auto;">
+            Find answers to some frequently asked questions
+          </p>
+          <button class="accordion">Team Size?</button>
+          <div class="panel">
+            <p>You can be by yourself or in a team of 4. Make use of ACM's discord to find team mates</p>
+          </div>
+
+          <button class="accordion">When is the hackathon?</button>
+          <div class="panel">
+            <p>The hackathon starts on March 5th, 2021 and ends of March 7th, 2021</p>
+          </div>
+
+          <button class="accordion">What do we need to build?</button>
+          <div class="panel">
+            <p>We have 3 prompts that we will be sharing on the first day of the hackathon. We do it this way so no one gets a head start</p>
+          </div>
+          <button class="accordion">What do we submit when we are done?</button>
+          <div class="panel">
+            <p>You will have to submit your source code and a description of the project</p>
+          </div>
+          <button class="accordion">Where do we submit?</button>
+          <div class="panel">
+            <p>Zip the source code with the discription and email it to acm.calstatela@gmail.com</p>
+          </div>
+        </div>
+        <div id="signup" class="w3-center" style="margin: auto; padding-bottom: 20px;">
+          <p>Intrested and want to take part?</p>
+          <a href="#" class="button_link">
+            <button class="mdc-button mdc-button--raised" style="background-color: black; color: #fff;">
+                <span class="mdc-button__label">Register</span>
+            </button>
+          </a>
+          <p>Have a question? Email us: <a href="mailto:acm.calstatela@gmail.com">acm.calstatela@gmail.com</a></p>
+        </div>
+        <script src="../js/homepage.js" async defer></script>
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    </body>
+</html>
